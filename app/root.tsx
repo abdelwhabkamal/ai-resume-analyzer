@@ -32,6 +32,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     init();
   }, [init]);
+
   return (
     <html lang="en">
       <head>
